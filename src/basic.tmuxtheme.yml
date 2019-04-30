@@ -1,0 +1,42 @@
+metadata:
+  header: |-
+    #
+    # Basic theme
+    #
+clock-mode:
+  colour: red
+  style: 24
+display-panes:
+  colour: default
+display-panes-active:
+  colour: default
+message-command:
+  style: { fg: default, bg: default }
+message:
+  style: { fg: default, bg: default }
+mode:
+  style: { fg: default, bg: red }
+pane-border:
+  style: { fg: default, bg: default }
+pane-active-border:
+  style: { fg: green, bg: default }
+status:
+  interval: 1
+  justify: centre
+  style: { fg: black, bg: cyan }
+status-left:
+  format: '#S #[fg=white]» #[fg=yellow]#I #[fg=cyan]#P'
+  length: 40
+  style: { fg: green, bg: black }
+status-right:
+  format: '#H #[fg=white]« #[fg=yellow]%H:%M:%S #[fg=green]%d-%b-%y'
+  length: 40
+  style: { fg: cyan, bg: black }
+window-status:
+  format: ' #I:#W#F '
+  separator: ''
+window-status-current:
+  format: ' #I:#W#F '
+  style: { fg: black, bg: red }
+window-status-activity:
+  style: { fg: yellow, bg: black }
