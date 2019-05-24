@@ -9,7 +9,7 @@ A pack of various themes for Tmux.
 
 1. Clone repo to local machine:
 
-        git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
+        git clone https://github.com/troycarlson/tmux-themepack.git ~/.tmux-themepack
 
 2. Source desired theme in your `~/.tmux.conf`:
 
