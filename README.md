@@ -20,22 +20,6 @@ A pack of various themes for Tmux.
     
         source-file ${HOME}/.tmux-themepack/powerline/block/green.tmuxtheme
 
-### Install using [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-
-1. Add plugin to the list of TPM plugins in `.tmux.conf`:
-
-        set -g @plugin 'jimeh/tmux-themepack'
-
-2. Hit `prefix + I` to fetch the plugin and source it. The plugin should now be working.
-
-You can pick and choose a theme via `.tmux.conf` option:
-
-- `set -g @themepack 'basic'` (default)
-- `set -g @themepack 'powerline/block/blue'`
-- `set -g @themepack 'powerline/block/cyan'`
-- `set -g @themepack 'powerline/default/gray'`
-- `set -g @themepack 'powerline/double/magenta'`
-- `...`
 
 ## Themes
 
